@@ -1,0 +1,199 @@
+﻿  Action.cpp
+  ActionMap.cpp
+  ActionTarget.cpp
+  Animator.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\animator.cpp(12): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\animator.cpp(13): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\animator.cpp(23): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\animator.cpp(24): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  AssetManager.cpp
+  Button.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\button.cpp(24): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\button.cpp(42): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Config.cpp
+  Container.cpp
+  DialogManager.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\dialogmanager.cpp(90): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\dialogmanager.cpp(99): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\dialogmanager.cpp(102): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\dialogmanager.cpp(65): warning C4101: 'pAttr': unreferenced local variable
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\dialogmanager.cpp(64): warning C4101: 'pChild': unreferenced local variable
+  Entity.cpp
+  EntityManager.cpp
+  ExternalTools.cpp
+  Frame.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\frame.cpp(53): warning C4101: 'res': unreferenced local variable
+  Game.cpp
+  GameObject.cpp
+  GameState.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\gamestate.cpp(28): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\gamestate.cpp(29): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\gamestate.cpp(30): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\gamestate.cpp(85): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\gamestate.cpp(132): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\gamestate.cpp(203): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  HUD.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\hud.cpp(15): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\hud.cpp(16): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  InputManager.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\inputmanager.cpp(8): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\inputmanager.cpp(8): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  Label.cpp
+  Layout.cpp
+  Compiling...
+  Level.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\level.cpp(103): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\level.cpp(222): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\level.cpp(225): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\level.cpp(234): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\level.cpp(242): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  LevelManager.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\levelmanager.cpp(53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\levelmanager.cpp(115): warning C4101: 'pChild': unreferenced local variable
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\levelmanager.cpp(186): warning C4101: 'pChild': unreferenced local variable
+  main.cpp
+  MainMenuState.cpp
+  Node.cpp
+  Pathfinding.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\pathfinding.cpp(63): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\pathfinding.cpp(64): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Quote.cpp
+  SpriteLevel.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\spritelevel.cpp(31): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\spritelevel.cpp(33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  pch.cpp
+  Player.cpp
+  SplashState.cpp
+  StateMachine.cpp
+  TextButton.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\textbutton.cpp(44): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\textbutton.cpp(67): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\textbutton.cpp(66): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\textbutton.cpp(65): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\textbutton.cpp(70): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\textbutton.cpp(69): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\textbutton.cpp(68): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+  VLayout.cpp
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\vlayout.cpp(101): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\vlayout.cpp(104): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Widget.cpp
+  Generating code
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\pathfinding.cpp(186): warning C4715: 'SoloStudios::Pathfinding::searchPath': not all control paths return a value
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\level.cpp(126): warning C4715: 'SoloStudios::Level::Init': not all control paths return a value
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\levelmanager.cpp(219): warning C4715: 'SoloStudios::LevelManager::LoadLevel': not all control paths return a value
+d:\erasmus\game programming\c++\engine\gameenginesfml\gameenginesfml\levelmanager.cpp(162): warning C4715: 'SoloStudios::LevelManager::LoadNextLevel': not all control paths return a value
+  All 1598 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GameEngineSFML.vcxproj -> D:\ERASMUS\GAME PROGRAMMING\C++\Engine\GameEngineSFML\x64\Release\GameEngineSFML.exe

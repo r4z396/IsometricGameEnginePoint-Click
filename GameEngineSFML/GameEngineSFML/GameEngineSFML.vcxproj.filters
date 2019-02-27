@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EngineBase">
+      <UniqueIdentifier>{a57f6488-d910-4ff3-a176-9a97b1c875ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Managers">
+      <UniqueIdentifier>{f5d43166-a72d-4ed1-a71b-ca4ef89340b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\HUD">
+      <UniqueIdentifier>{6d4d2827-831e-4988-aede-6aac15412321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Entitys">
+      <UniqueIdentifier>{1e5977e1-5cec-4629-a56a-e160f2484c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\States">
+      <UniqueIdentifier>{809ed815-012e-4cc2-87cc-89696bc75d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Levels">
+      <UniqueIdentifier>{41071f77-3ea8-419e-bec9-50aa78a43d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Other">
+      <UniqueIdentifier>{090c3221-a99c-48ba-9f80-c749db82e4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\HUD\HandleInputs">
+      <UniqueIdentifier>{24c6a9d1-a349-4e04-b8f4-84e3e6cfa7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Components">
+      <UniqueIdentifier>{60d8dc5d-bdcb-4f75-a808-721a3e9d70ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Levels\Pathfinding">
+      <UniqueIdentifier>{3f2c79e1-5828-45bf-a1fc-51ba16a1ed0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Dialogues">
+      <UniqueIdentifier>{5ca3793f-8fe4-4b50-9cf5-c69a3e7816f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HUDIncludes.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="VLayout.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.h">
+      <Filter>EngineBase\States</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>EngineBase\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>EngineBase\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>EngineBase\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="TextButton.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINITIONS.h">
+      <Filter>EngineBase\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>EngineBase\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>EngineBase\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>EngineBase\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalTools.h">
+      <Filter>EngineBase\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>EngineBase\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>EngineBase\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>EngineBase</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml.hpp">
+      <Filter>EngineBase\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_iterators.hpp">
+      <Filter>EngineBase\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_print.hpp">
+      <Filter>EngineBase\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_utils.hpp">
+      <Filter>EngineBase\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>EngineBase\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionTarget.hpp">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionMap.h">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>EngineBase\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteLevel.h">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>EngineBase\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>EngineBase\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding.h">
+      <Filter>EngineBase\Levels\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Quote.h">
+      <Filter>EngineBase\Dialogues</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogManager.h">
+      <Filter>EngineBase\Dialogues</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>EngineBase\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>EngineBase\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>EngineBase\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>EngineBase\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>EngineBase\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="TextButton.cpp">
+      <Filter>EngineBase\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="VLayout.cpp">
+      <Filter>EngineBase\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>EngineBase\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>EngineBase\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout.cpp">
+      <Filter>EngineBase\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>EngineBase\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>EngineBase\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>EngineBase\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>EngineBase\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>EngineBase\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>EngineBase\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>EngineBase\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalTools.cpp">
+      <Filter>EngineBase\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>EngineBase</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>EngineBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionMap.cpp">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTarget.cpp">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>EngineBase\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteLevel.cpp">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>EngineBase\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>EngineBase\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding.cpp">
+      <Filter>EngineBase\Levels\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Quote.cpp">
+      <Filter>EngineBase\Dialogues</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogManager.cpp">
+      <Filter>EngineBase\Dialogues</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>EngineBase\Entitys</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="data.xml">
+      <Filter>EngineBase\Other</Filter>
+    </Xml>
+    <Xml Include="dialog.xml">
+      <Filter>EngineBase\Other</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ActionMap.tpl">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </None>
+    <None Include="ActionTarget.tpl">
+      <Filter>EngineBase\HUD\HandleInputs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameEngineSFML.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

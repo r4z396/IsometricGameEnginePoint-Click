@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <title id="1">IsometricEngine</title>
+  <assets path="assets/">
+    <img id="1">grass.png</img>
+    <img id="2">tree.png</img>
+    <img id="3">box.png</img>
+    <img id="4">char.png</img>  
+  </assets>
+  
+  <level id="1" width="10" height="10">
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+  </level>
+
+  <level id="1" width="10" height="10">
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+    1111111111
+  </level>
+
+  <level id="2" width="10" height="3">
+    1111111111
+    1111111111
+    1111111111
+   
+  </level>
+
+  <level id="3" width="10" height="3">
+    2222222221
+    2222222222
+    1111111111
+
+  </level>
+
+</data>

@@ -1,0 +1,50 @@
+﻿#include "Label.h"
+
+namespace SoloStudios {
+	Label::Label(const std::string& text,sf::Font& font, Widget* parent) : Widget(parent)
+	{
+		_text.setFont(font);
+		setText(text);
+		setTextColor(sf::Color(180, 93, 23));
+		_text.setCharacterSize(20);
+		
+	}
+
+
+	Label::~Label() {}
+	void Label::setText(const std::string& text)
+	{
+		_text.setString(text);
+		updateShape();
+	}
+	void Label::setCharacterSize(unsigned int size)
+	{
+		_text.setCharacterSize(size);
+		updateShape();
+	}
+
+	unsigned int Label::getCharacterSize()const { return _text.getCharacterSize(); }
+
+	void Label::setTextColor(const sf::Color& color) { _text.setFillColor(color); }
+
+	sf::Vector2f Label::getSize()const
+	{
+		sf::FloatRect rect = _text.getGlobalBounds();
+		return sf::Vector2f(rect.width, rect.height);
+	}
+
+	void Label::draw(sf::RenderTarget& target, sf::RenderStates states) const
+	{
+		states.transform.translate(_position);
+		target.draw(_text, states);
+
+		//std::cout << _text.getString().toAnsiString();
+
+		//sf::CircleShape shape(5.f);		
+		//// set the shape color to green
+		//shape.setFillColor(sf::Color(0, 0, 250));
+		//target.draw(shape, states);
+
+	}
+
+}

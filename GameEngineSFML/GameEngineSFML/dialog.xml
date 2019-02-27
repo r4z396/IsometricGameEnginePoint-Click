@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+ 
+  <level id="1">
+    <quotes size="9">
+      <quote id="1" duration="3" posX="100" posY="700">...</quote>
+      <quote id="2" duration="4" posX="100" posY="700">Welcome to this Isometric Engine</quote>
+      <quote id="3" duration="6" posX="100" posY="700">I will explain you everything from this DEMO</quote>
+      <quote id="4" duration="7" posX="100" posY="700">With the mouse wheel you can zoom in-out</quote>
+      <quote id="5" duration="8" posX="100" posY="700">With the Left Mouse Click you can move the level</quote>
+      <quote id="6" duration="9" posX="100" posY="700">Clicking with the right click you will order the Player to move, using a pathfinding algorithm.</quote>
+      <quote id="7" duration="8" posX="100" posY="700">At the left part of the screen you can see the HUD, the first option will change the Level</quote>
+      <quote id="8" duration="9" posX="100" posY="700">the second option will hide the debug information of the NodeGrid.</quote>
+      <quote id="9" duration="10" posX="100" posY="700">Remember that is a demo and its full of bugs :) haha dont crash it</quote>
+    </quotes>
+  </level>
+
+  <level id="2">
+    <quotes size="4">
+      <quote id="1" duration="4" posX="100" posY="700">...</quote>
+      <quote id="2" duration="2" posX="100" posY="700">FIRST TEXT</quote>
+      <quote id="3" duration="2" posX="100" posY="700">Thirth Quote</quote>
+      <quote id="4" duration="2" posX="100" posY="700">Thirth Quote</quote>
+
+    </quotes>
+   
+  </level>
+
+  <level id="3">
+    <quotes size="4">
+      <quote id="1" duration="4" posX="100" posY="700">This is the last level</quote>
+      <quote id="2" duration="2" posX="100" posY="700">FIRST TEXT</quote>
+      <quote id="3" duration="2" posX="100" posY="700">Second Quote</quote>
+      <quote id="4" duration="2" posX="100" posY="700">Thirth Quote</quote>
+
+    </quotes>
+
+  </level>
+
+</data>
